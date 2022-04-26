@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://telegra.ph/file/5a180a318e09d49295c8e.jpg">
+  <img src="https://te.legra.ph/file/9073fda267b4a7fbb2c27.jpg">
 </p>
 
 <h4><p align="center"> EMIKO ROBOT </p></h4>
 
-<p align="center">Emiko Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">🅐𝖚𝖏𝖑𝖆 Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
 <a href="https://t.me/Aikarobot"> <img src="https://img.shields.io/badge/Emiko-Robot-blue?&logo=telegram" alt="Emiko on Telegram" /> </a><br>
@@ -25,7 +25,7 @@
 - You can just change the name of github on deploy link and done, the repos able to deploy on heroku.
 - Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://youtu.be/GMaYMYhf_Vk)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BasantiMusic/EmikoRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AujlaSong/AujlaMangmentBot)
 
 
 ```
