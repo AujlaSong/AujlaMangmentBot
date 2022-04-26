@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+✪ I'm an anime-theme management bot [✨](https://te.legra.ph/file/9073fda267b4a7fbb2c27.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"),
+        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="🅐𝖚𝖏𝖑𝖆_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
+ You can support the project by contacting @Lions_OF_Punjab \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -378,11 +378,11 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="Support", callback_data="@Lions_OF_Punjab"),
+                    InlineKeyboardButton(text="Credits", callback_data="@Aujla_PB_65"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/AujlaSong/AujlaMangmentBot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -441,8 +441,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/Lions_OF_Punjab"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/AujlaPB65_Network"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -461,24 +461,24 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="sena-ex", url="https://github.com/AujlaSong/AujlaMangmentBot"),
+                    InlineKeyboardButton(text="The🅐𝖚𝖏𝖑𝖆 Music", url="https://github.com/AujlaSong/Music-"),
                  ],
                  [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
+                    InlineKeyboardButton(text="Feri", url="https://github.com/AujlaSong/Music-"),
+                    InlineKeyboardButton(text="riz-ex", url="https://github.com/AujlaSong/AujlaMangmentBot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/AujlaSong/AujlaMangmentBot"),
+                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/AujlaSong/Music-"),
                  ],
                  [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/AujlaSong/Music-"),
+                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/AujlaSong/AujlaMangmentBot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="🅐𝖚𝖏𝖑𝖆 Music", url="https://github.com/AujlaSong/Music-"),
+                    InlineKeyboardButton(text="🅐𝖚𝖏𝖑𝖆 bot", url="https://github.com/AujlaSong/AujlaMangmentBot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
